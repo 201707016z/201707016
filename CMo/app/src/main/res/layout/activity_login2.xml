@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextViewId"
+                android:layout_width="124dp"
+                android:layout_height="45dp"
+                android:fontFamily="@font/moon"
+                android:text="아이디"
+                android:textColor="#00AC7D"
+                android:textSize="35sp" />
+
+            <EditText
+                android:id="@+id/editTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextViewPw2"
+                android:layout_width="124dp"
+                android:layout_height="45dp"
+                android:fontFamily="@font/moon"
+                android:text="비밀번호확인"
+                android:textColor="#00AC7D"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextPw2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextViewPw"
+                android:layout_width="124dp"
+                android:layout_height="45dp"
+                android:fontFamily="@font/moon"
+                android:text="비밀번호"
+                android:textColor="#00AC7D"
+                android:textSize="35sp" />
+
+            <EditText
+                android:id="@+id/editTextPw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextViewMail"
+                android:layout_width="124dp"
+                android:layout_height="45dp"
+                android:fontFamily="@font/moon"
+                android:text="이메일"
+                android:textColor="#00AC7D"
+                android:textSize="35sp" />
+
+            <EditText
+                android:id="@+id/editTextMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_join"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/moon"
+            android:text="회원가입"
+            android:textColor="#00AC7D"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
